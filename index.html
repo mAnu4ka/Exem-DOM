@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Styles/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Учет сотрудников в компании Wepro</h1>
+    <h2>Общее число сотрудников: <span class="All-rob"></span></h2>
+    <h3>Премию получат:<span class="All-prem"></span> </h3>
+
+  </header>
+  <div class="search-block">
+    <input type="text" placeholder="Найти сотрудника" class="rob-search">
+    <div class="switch-btns">
+      <div class="btn btn__active"  data-what="all">Все сотрудники</div>
+      <div class="btn" data-what="goup">На повышение</div>
+      <div class="btn" data-what="slary__1000">З/П больше 1000$</div>
+    </div>
+  </div>
+  <main></main>
+  <footer>
+    <h2>Добавьте нового сотрудника</h2>
+    <div class="inputs">
+      <form>
+        <input type="text" placeholder="Как его зовут?" name="name" />
+        <input type="number" placeholder="З/П в $?" name="salary" />
+        <button>Добавить</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

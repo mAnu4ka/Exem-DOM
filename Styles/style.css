@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Gilroy';
+}
+
+header {
+  width: 1000px;
+  height: 200px;
+  background-color: #3d5a80;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+header h3 {
+  font-size: 30px;
+}
+
+.search-block {
+  margin: 0 auto;
+  width: 1000px;
+  height: 120px;
+  margin-top: 20px;
+  background-color: #3d5a80;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.search-block input {
+  width: 950px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search-block input::placeholder {
+  color: gray;
+}
+
+.switch-btns {
+  width: 495px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.switch-btns .btn {
+  border-radius: 4px;
+  width: 200px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  border: 1px solid white;
+  transition: 200ms ease;
+  cursor: pointer;
+}
+
+.btn__active{
+  background-color: white !important;
+  color: #3d5a80 !important;
+}
+
+.switch-btns .btn:hover {
+  background-color: white;
+  color: #3d5a80;
+}
+
+main {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1000px;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 192, 192);
+  padding-right: 5px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 73px;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.user span {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  display: none;
+}
+
+
+
+.user:hover .star {
+  display: block;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-side span {
+
+  margin-right: 100px;
+}
+
+footer {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 1000px;
+  height: 142px;
+  background-color: #3d5a80;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+footer h2 {
+  color: white;
+}
+
+.inputs {
+  width: fit-content;
+  height: auto;
+  margin-top: 15px;
+}
+
+.inputs input {
+  width: 350px;
+  height: 38px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  width: 96px;
+  height: 38px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
