@@ -42,8 +42,8 @@ const CreateElement = (arr) => {
     let buts = document.querySelectorAll('.btn')
     for (const item of buts) {
         item.onclick = () => {
-            let arrs = []
-            CreateElement(Buton(arr, item, arrs));
+            let arrsz = []
+            CreateElement(Buton(arrs, item, arrsz));
         }
     }
 
