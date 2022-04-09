@@ -1,0 +1,88 @@
+{
+  "exam1": [
+    {
+      "name": "Далер Шарифкулов",
+      "salary": 500000,
+      "increase": true,
+      "rise": true,
+      "id": 3
+    },
+    {
+      "name": "Бекзод Хамидов",
+      "salary": 1000,
+      "increase": true,
+      "rise": false,
+      "id": 4
+    },
+    {
+      "name": "Алишер Мардиев",
+      "salary": "000",
+      "increase": true,
+      "rise": true,
+      "id": 5
+    },
+    {
+      "name": "Мухаммад",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 6
+    },
+    {
+      "name": "Сабина Яковлева",
+      "salary": 5000,
+      "increase": true,
+      "rise": true,
+      "id": 7
+    },
+    {
+      "name": "Руфина",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 8
+    },
+    {
+      "name": "Хуршида",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 9
+    },
+    {
+      "name": "Дилшод Муртазоев",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 10
+    },
+    {
+      "name": "Ориф",
+      "salary": 5000,
+      "increase": true,
+      "rise": false,
+      "id": 11
+    },
+    {
+      "name": "Улугбек",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 12
+    },
+    {
+      "name": "Влад Цой",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 13
+    },
+    {
+      "name": "Алина",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 14
+    }
+  ]
+}
